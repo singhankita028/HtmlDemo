@@ -19,7 +19,7 @@ h3 {
 }
 body{
   background-color: transparent;
-background-image: url("http://image.shutterstock.com/z/stock-photo-healthy-food-background-studio-photography-of-different-fruits-and-vegetables-on-wooden-table-210862876.jpg");
+  background-image: url("http://image.shutterstock.com/z/stock-photo-healthy-food-background-studio-photography-of-different-fruits-and-vegetables-on-wooden-table-210862876.jpg");
 }
 a {
   text-decoration: none;
@@ -28,8 +28,6 @@ a:hover {
   text-decoration: underline;
   color: darkred;
 }
-
-
 ul {
     list-style-type: square;
     padding: 0;
@@ -41,9 +39,6 @@ ul {
 li {
   font-size: 20px;
 }
-
-
-
 ul li {
   font size : 22px;
   display: inline;
@@ -85,4 +80,58 @@ img {
 .body-content {
   padding: inherit;
   margin: 0 auto 0 auto;
+}
+label, input {
+  display: block;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+input {
+  width: 500px;
+  margin-bottom: 25px;
+}
+
+input[type=submit] {
+  width: 150px;
+  font-size: 20px;
+  margin: 0 auto 0 auto;
+}
+
+input[type=text] {
+  border: 2px solid #7facaa;
+  font-size: 24px;
+  padding: 8px;
+  margin-left: 365px;
+  margin-bottom: 10px;
+}
+textarea {
+  border: 2px solid #7facaa;
+  width: 500px;
+  height: 250px;
+  margin: 0 auto 10px auto;
+
+  padding: 8px;
+  font-size: 20px;
+}
+
+input[type=checkbox] {
+  width: 20px;
+  height: 20px;
+}
+
+input[type=checkbox], label[for=newsletter] {
+display: inline;
+}
+
+label[for=newsletter] {
+  font-size: 20px;
+  text-align: center;
+}
+input[type=email] {
+  border: 2px solid  #7facaa;
+  font-size: 24px;
+  padding: 8px;
+  margin-left: 365px;
+  margin-bottom: 10px;
 }
